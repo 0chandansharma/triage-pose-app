@@ -1,0 +1,5 @@
+numpy>=1.20.0
+rtmlib>=0.0.13
+opencv-python>=4.5.0
+pydantic>=1.8.0
+anytree>=2.8.0

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(export:*)",
+      "Bash(PYTHONPATH=/Users/chandansharma/Desktop/workspace/deecogs-workspace/triage-pose python -m app.main)",
+      "Bash(pip show:*)",
+      "Bash(mkdir:*)"
+    ],
+    "deny": []
+  }
+}

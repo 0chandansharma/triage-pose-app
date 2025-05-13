@@ -1,0 +1,26 @@
+# Docker compose configuration
+version: "3.8"
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./static:/app/static
+    environment:
+      - APP_NAME=Triage-Pose
+      - API_VERSION=0.1.0
+      - HOST=0.0.0.0
+      - PORT=8000
+      - UPLOAD_DIR=static/uploads
+      - RESULTS_DIR=static/results
+      - TEMP_DIR=static/temp
+      - DEFAULT_MODEL=body_with_feet
+      - DEFAULT_DETECTION_FREQUENCY=4
+      - DEFAULT_TRACKING_MODE=physiotrack
+      - DEFAULT_DEVICE=auto
+      - DEFAULT_BACKEND=auto
+      - RELOAD=False
+      - WORKERS=1
+    restart: unless-stopped

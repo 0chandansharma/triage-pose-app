@@ -1,0 +1,6 @@
+setup.py
+physiotrack.egg-info/PKG-INFO
+physiotrack.egg-info/SOURCES.txt
+physiotrack.egg-info/dependency_links.txt
+physiotrack.egg-info/requires.txt
+physiotrack.egg-info/top_level.txt
